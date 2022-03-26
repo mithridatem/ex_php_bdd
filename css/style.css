@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+/*--------------------
+        Menu
+--------------------*/
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: blue;
+}
+li{
+    flex: content;
+    list-style: none;
+    margin: 10px;
+}
+li>a{
+    color: white;
+}
+/*--------------------
+        Texte
+--------------------*/
+h1,h2,h3,h4,p{
+    padding-left: 5px;
+}
+h3{
+    transform: translateX(5px);
+}
+textarea,input[type="text"]{
+    transform: translateX(10px);
+}
+input[type="submit"]{
+    transform: translateX(5px);
+}
+span{
+    font-weight:bold;
+}
+p{
+   font-size:0.8em;
+   color:rgb(38, 37, 37); 
+}
+input[type="submit"]{
+    transform: translateX(10px);
+}
+.article{
+    transform: translateX(10px);
+    color:rgb(75, 75, 75);
+}
+
+.label{
+    transform: translateX(8px);
+    font-weight:bold;
+}
+/*--------------------
+    Statut article
+--------------------*/
+.show{
+    color:limegreen;
+}
+.hide{
+    color:red;
+}
